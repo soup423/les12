@@ -1,0 +1,94 @@
+// @import "variable.scss";
+// .products {
+//     display: flex;
+//     justify-content: space-between;
+// }
+// .cardBlock {
+//     display: flex;
+//     flex-direction: column;
+//     width: $widthcardBlock;
+//     height: $heightcardBlock;
+//     background-color: $backgroundBlock;
+// }
+// .cardBlock__picture{
+
+// }
+// .cardBlock__text {
+//     font-size: 15px;
+//     text-align: center;
+// }
+// .cardBlock__text_color-white {
+//     color: white;
+// }
+// .cardBlock__box {
+// }
+// .cardBlock {
+
+// }
+// &_isbig{
+
+// }
+// .parent {
+//     display: grid;
+//     grid-template-columns: 1fr 2fr 3fr;
+//     // grid-template-rows: 150px 50px;
+//     // grid-template-columns: repeat(10,50px 100px);
+//     grid-auto-rows: minmax(30px, 150px);
+// }
+// .child {
+//     grid-column-start: 4;
+//     grid-column-end: 1;
+//     grid-row-start: 4;
+//     grid-row-end: 2;
+// }
+.grid1 {
+    display: grid;
+    grid-template-columns: 150px 100px 100px 100px;
+    grid-template-rows: 100px 100px 100px 100px;
+    grid-template-areas: "a b c d"
+                        "a e f h"
+                        "g l l l"
+                        "k l l l";
+    
+}  
+.first {
+    background: yellowgreen;
+    grid-area: a;
+}
+.second {
+    background: rgb(209, 100, 241);
+    grid-area: b;
+}
+.third {
+    background: red;
+    grid-area: c;
+}
+.forth {
+    background:turquoise;
+    grid-area: d;
+
+}
+.fifth {
+    background: yellow;
+    grid-area: e;
+}
+.sixth {
+    background: saddlebrown;
+    grid-area: f;
+}
+.seventh {
+    background: sandybrown;
+    grid-area: h;
+}
+.eight {
+    background: seagreen;
+    grid-area: g;
+}
+.ninth {
+    background: skyblue;
+    grid-area: k;
+}
+.tenth {
+    background: slateblue;
+    grid-area: l;
+}
